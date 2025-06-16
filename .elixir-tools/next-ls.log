@@ -9264,3 +9264,43 @@ This will trigger a full recompilation in order to re-index your codebase.
 15:16:54.139 [debug] handled notification client -> server $/cancelRequest in 102µs
 
 15:19:38.509 id=663 [debug] handled request client -> server textDocument/hover in 1005ms
+
+15:38:17.640 id=664 [debug] handled request client -> server textDocument/hover in 1015ms
+
+15:38:17.645 [debug] handled notification client -> server $/cancelRequest in 1ms
+
+15:39:18.340 id=665 [debug] handled request client -> server textDocument/hover in 1001ms
+
+15:39:18.340 [debug] handled notification client -> server $/cancelRequest in 205µs
+
+15:41:22.492 id=666 [debug] handled request client -> server textDocument/codeAction in 6ms
+
+15:41:22.780 id=667 [debug] handled request client -> server textDocument/codeAction in 29ms
+
+15:41:22.840 id=668 [debug] handled request client -> server textDocument/documentSymbol in 15ms
+
+15:41:24.770 id=669 [debug] handled request client -> server textDocument/hover in 1012ms
+
+15:41:24.770 [debug] handled notification client -> server $/cancelRequest in 204µs
+
+15:52:00.946 [debug] handled notification client -> server textDocument/didClose in 5ms
+
+15:52:02.401 id=670 [debug] handled request client -> server textDocument/codeAction in 3ms
+
+15:52:02.678 id=671 [debug] handled request client -> server textDocument/codeAction in 11ms
+
+15:52:02.728 id=672 [debug] handled request client -> server textDocument/documentSymbol in 27ms
+
+15:52:04.302 [debug] handled notification client -> server textDocument/didClose in 205µs
+
+15:52:05.277 [debug] handled notification client -> server textDocument/didClose in 204µs
+
+15:52:08.863 [debug] handled notification client -> server textDocument/didClose in 102µs
+
+15:52:09.515 id=673 [debug] handled request client -> server textDocument/codeAction in 3ms
+
+15:52:09.779 id=674 [debug] handled request client -> server textDocument/codeAction in 614µs
+
+15:52:09.816 id=675 [debug] handled request client -> server textDocument/documentSymbol in 5ms
+
+15:52:11.006 [debug] handled notification client -> server textDocument/didClose in 102µs
