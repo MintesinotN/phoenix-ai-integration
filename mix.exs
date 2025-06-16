@@ -13,7 +13,17 @@ defmodule OpenaiPhoenix.MixProject do
       releases: [
         openai_phoenix: [
           include_executables_for: [:unix],
-          steps: [:assemble, :tar]
+          steps: [:assemble, :tar],
+          strip_beams: Mix.env() == :prod,
+          applications: [runtime_tools: :permanent],
+          # Include priv/static folder:
+          include_erts: true,
+          include_src: false,
+          # cookie: :"some_secret",
+          # Important: Include static assets:
+          overlays: [
+            {:copy, "priv/static", "priv/static"}
+          ]
         ]
       ]
     ]
