@@ -12,7 +12,7 @@ config :openai_phoenix,
 
 # Configures the endpoint
 config :openai_phoenix, OpenaiPhoenixWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "openai-chat.gigalixirapp.com"],
   adapter: Bandit.PhoenixAdapter,
   render_errors: [
     formats: [html: OpenaiPhoenixWeb.ErrorHTML, json: OpenaiPhoenixWeb.ErrorJSON],
