@@ -9304,3 +9304,7 @@ This will trigger a full recompilation in order to re-index your codebase.
 15:52:09.816 id=675 [debug] handled request client -> server textDocument/documentSymbol in 5ms
 
 15:52:11.006 [debug] handled notification client -> server textDocument/didClose in 102µs
+
+16:27:37.112 id=676 [debug] handled request client -> server shutdown in 220ms
+
+16:27:37.162 [error] Writer crashed (:"The pipe is being closed.\r\n")
