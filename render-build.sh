@@ -6,6 +6,7 @@ MIX_ENV=prod mix compile
 
 cd assets && npm install && npm run deploy
 cd ..
-mix phx.digest
+
+MIX_ENV=prod mix phx.digest
 
 MIX_ENV=prod mix release

@@ -8973,3 +8973,9 @@ This will trigger a full recompilation in order to re-index your codebase.
 14:19:13.635 id=573 [debug] handled request client -> server textDocument/documentSymbol in 5ms
 
 14:19:15.900 [debug] handled notification client -> server textDocument/didClose in 205µs
+
+14:39:53.764 id=574 [debug] handled request client -> server textDocument/codeAction in 22ms
+
+14:39:54.079 id=575 [debug] handled request client -> server textDocument/codeAction in 921µs
+
+14:39:54.149 id=576 [debug] handled request client -> server textDocument/documentSymbol in 9ms
